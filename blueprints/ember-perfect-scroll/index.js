@@ -8,6 +8,6 @@ module.exports = {
   },
 
   afterInstall: function(options) {
-    return this.addBowerPackageToProject('perfect-scrollbar');
+    return this.addBowerPackageToProject('perfect-scrollbar', 'https://github.com/cronos-technologies/perfect-scrollbar-bower.git#master');
   }
 };
